@@ -41,27 +41,7 @@ class ContentOfCalls extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(),
-      // drawer: Drawer(),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: [
-            CircleAvatar(
-              child: Image.asset("${myCalls[0]['images']}"),
-              maxRadius: 50,
-            ),
-            Text(
-              "Adham",
-              style: TextStyle(fontSize: 50),
-            ),
-            Text(
-              "connect",
-              style: TextStyle(fontSize: 50),
-            ),
-           Spacer(),
-            Stack(children: [
-              Container(
+      bottomSheet:Container(
                 width: double.infinity,
                 height: 100,
                 decoration: BoxDecoration(
@@ -113,7 +93,24 @@ class ContentOfCalls extends StatelessWidget {
                   ],
                 ),
               )
-            ]),
+     
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            CircleAvatar(
+              child: Image.asset("${myCalls[0]['images']}"),
+              maxRadius: 50,
+            ),
+            Text(
+              "Adham",
+              style: TextStyle(fontSize: 50),
+            ),
+            Text(
+              "connect",
+              style: TextStyle(fontSize: 50),
+            ),
+           Spacer(),
           ],
         ),
       ),

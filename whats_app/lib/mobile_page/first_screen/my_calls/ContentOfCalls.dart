@@ -1,8 +1,6 @@
-import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:whats_app/mobile_page/first_screen/my_calls/Calls.dart';
-
+// ignore: must_be_immutable
 class ContentOfCalls extends StatelessWidget {
   ContentOfCalls({Key? key}) : super(key: key);
   List myCalls = [
@@ -92,7 +90,7 @@ class ContentOfCalls extends StatelessWidget {
                     )
                   ],
                 ),
-              )
+              ),
      
       body: Center(
         child: Column(

@@ -1,8 +1,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:whats_app/Responsive.dart';
-import 'package:whats_app/mobile_page/first_screen/FirstScreen.dart';
-import 'package:whats_app/mobile_page/first_screen/my_chats/ContentOfChat.dart';
 import 'package:whats_app/mobile_page/first_screen/my_status/ContentOfStatus.dart';
 import 'package:whats_app/mobile_page/first_screen/my_status/MyWriteStatus.dart';
 

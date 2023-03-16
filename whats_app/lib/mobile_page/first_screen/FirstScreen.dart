@@ -1,4 +1,3 @@
-import 'dart:ui';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:whats_app/mobile_page/first_screen/my_calls/Calls.dart';
@@ -6,9 +5,6 @@ import 'package:whats_app/mobile_page/first_screen/my_camera/Camera.dart';
 import 'package:whats_app/mobile_page/first_screen/my_chats/Chats.dart';
 import 'package:whats_app/mobile_page/first_screen/my_status/Status.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:whats_app/mobile_page/first_screen/my_camera/Camera.dart';
-
-import 'my_camera/Camera.dart';
 import 'my_chats/My_Connection_Data.dart';
 
 class FirstScreen extends StatefulWidget {

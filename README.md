@@ -14,3 +14,5 @@
 ![connectScreen](https://github.com/BlackedHorse/whats_app/blob/main/whats_app/ui/photo/connectScreen.JPG)
 ![notInterestedScreen](https://github.com/BlackedHorse/whats_app/blob/main/whats_app/ui/photo/notInterestedScreen.JPG)
 ![cameraScreen](https://github.com/BlackedHorse/whats_app/blob/main/whats_app/ui/photo/cameraScreen.JPG)
+---
+https://github.com/BlackedHorse/whats_app/blob/main/whats_app/ui/vid/278187186_405276908099905_1403277530018325402_n.mp4
